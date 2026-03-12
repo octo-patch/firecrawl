@@ -1,0 +1,2324 @@
+{
+  "services": [
+    {
+      "id": "6676a474-73aa-4c34-ac3d-ba23119d85da",
+      "name": "Pylon",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None"
+      }
+    },
+    {
+      "id": "third-party-hosting-providers-gcp",
+      "name": "GCP",
+      "category": "Third Party Hosting Providers",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P0",
+      "description": "I have access to observability infrastructure in GCP",
+      "runbook": "",
+      "notes": "How to access: Sign in through http://sideguide.dev email",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "read",
+        "dev_access": "read",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-hosting-providers-supabase",
+      "name": "Supabase",
+      "category": "Third Party Hosting Providers",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P0",
+      "description": "Used for auth and for the control plane",
+      "runbook": "",
+      "notes": "How to access: https://app.hex.tech/4ceb8738-e714-4a87-aeff-5d253f64db29/explore/Untitled-project-032fm4HLHMo2YsCBbPbA9Q?dialog=data-browser&s=eJyNUTtPwzAQ%252Fi83J1JSKE2yQSsQG1K7VRmc%252BOKcZOzIdlraKv8d2wTKY2GzPt99r7uAHbCF6gIdoeQWqn2dAEfHSNrfMCrWSORQOTNiArbXx3spH5jFXfjYxK3HeSHMTAkcCI%252B704BQQaNdDwkYfdxpx6T95Gl7Ztxaq45EULRoCIPiBchrQZaXLWcZprgs8nSV58u0QI5pUXTd6jYrM950ntbNIszA5L1adI6UiBkkClQ8vAZtyZFWftCQ6B1M3qL2esqxGT%252BgcdQyCcns5MnocQh%252B9v%252BzUtees9VyfFU%252Fcx7IjkzSOSrNncTs4Bc42UGyUyzy2sWfAhbfVMubDhersmnuysa7HZjALZ096zJLoCeOz61WXr3zHnBGFMe3L8Rq4zZksA2GNtixUTqvd79dBzpScXodk1xp4tWFMChijuvHR%252BQXo4fQYLxgPU3vbKHMuA%253D%253D\n\nSource note: add the databases listed in Hex.",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "read",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-hosting-providers-fly",
+      "name": "Fly",
+      "category": "Third Party Hosting Providers",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "",
+      "runbook": "",
+      "notes": "How to access: Sign in with mailto:malis@pagerfree.com email\n\nOpen question from source: what is Fly used for?",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "read/write",
+        "tags": "follow-up"
+      }
+    },
+    {
+      "id": "third-party-hosting-providers-clickhouse",
+      "name": "Clickhouse",
+      "category": "Third Party Hosting Providers",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "",
+      "runbook": "",
+      "notes": "Open question from source: what is Clickhouse used for?",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-slack",
+      "name": "Slack",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "Comms",
+      "runbook": "",
+      "notes": "How to access: Shared slack channel",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "read",
+        "dev_access": "read/write",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-sentry",
+      "name": "Sentry",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "Used for error tracking and traces",
+      "runbook": "",
+      "notes": "How to access: Sign in through http://sideguide.dev email",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "read",
+        "dev_access": "read",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-better-stack",
+      "name": "Better Stack",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P2",
+      "description": "Used for limited alerts and incident management",
+      "runbook": "",
+      "notes": "How to access: Sign in through http://sideguide.dev email",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "read/write",
+        "tags": "follow-up get api access"
+      }
+    },
+    {
+      "id": "third-party-saas-hex",
+      "name": "Hex",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P3",
+      "description": "Data analysis and querying",
+      "runbook": "",
+      "notes": "How to access: Sign in with http://sideguide.dev emali",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "read",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-bigquery",
+      "name": "BigQuery",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P3",
+      "description": "",
+      "runbook": "",
+      "notes": "How to access: https://app.hex.tech/4ceb8738-e714-4a87-aeff-5d253f64db29/explore/Untitled-project-032fm4HLHMo2YsCBbPbA9Q?dialog=data-browser&s=eJyNUTtPwzAQ%252Fi83J1JSKE2yQSsQG1K7VRmc%252BOKcZOzIdlraKv8d2wTKY2GzPt99r7uAHbCF6gIdoeQWqn2dAEfHSNrfMCrWSORQOTNiArbXx3spH5jFXfjYxK3HeSHMTAkcCI%252B704BQQaNdDwkYfdxpx6T95Gl7Ztxaq45EULRoCIPiBchrQZaXLWcZprgs8nSV58u0QI5pUXTd6jYrM950ntbNIszA5L1adI6UiBkkClQ8vAZtyZFWftCQ6B1M3qL2esqxGT%252BgcdQyCcns5MnocQh%252B9v%252BzUtees9VyfFU%252Fcx7IjkzSOSrNncTs4Bc42UGyUyzy2sWfAhbfVMubDhersmnuysa7HZjALZ096zJLoCeOz61WXr3zHnBGFMe3L8Rq4zZksA2GNtixUTqvd79dBzpScXodk1xp4tWFMChijuvHR%252BQXo4fQYLxgPU3vbKHMuA%253D%253D",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "read",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-posthog",
+      "name": "PostHog",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P3",
+      "description": "Used for product analytics",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-langfuse",
+      "name": "Langfuse",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P3",
+      "description": "",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-saas-langsmith",
+      "name": "LangSmith",
+      "category": "Third Party SaaS",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P3",
+      "description": "",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-runpod",
+      "name": "RunPod",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P1",
+      "description": "Used for PDF Parsing",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-openai",
+      "name": "OpenAI",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P0",
+      "description": "",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": "follow-up only provider?"
+      }
+    },
+    {
+      "id": "third-party-apis-stripe",
+      "name": "Stripe",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P1",
+      "description": "Used for billing",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-resend",
+      "name": "Resend",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P1",
+      "description": "Used for emails",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-searxng",
+      "name": "SearXNG",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P0",
+      "description": "Used as a search provider",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-duckduckgo",
+      "name": "DuckDuckGo",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P0",
+      "description": "Used as a search provider",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "third-party-apis-x402-facilitator",
+      "name": "x402 Facilitator",
+      "category": "Third Party APIs",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "P1",
+      "description": "",
+      "runbook": "",
+      "notes": "Open question from source: what is x402?",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "agentweb-api",
+      "name": "api (agentweb)",
+      "category": "k8s:agentweb",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "agentweb\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: agentweb\n\nDeployment: api\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/agentweb:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "cert-manager-cert-manager",
+      "name": "cert-manager",
+      "category": "k8s:cert-manager",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "P2",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: cert-manager\n\nDeployment: cert-manager\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/jetstack/cert-manager-controller:v1.19.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "cert-manager-cert-manager-cainjector",
+      "name": "cert-manager-cainjector",
+      "category": "k8s:cert-manager",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "P2",
+      "description": "cainjector\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: cert-manager\n\nDeployment: cert-manager-cainjector\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/jetstack/cert-manager-cainjector:v1.19.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "cert-manager-cert-manager-webhook",
+      "name": "cert-manager-webhook",
+      "category": "k8s:cert-manager",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "P2",
+      "description": "webhook\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: cert-manager\n\nDeployment: cert-manager-webhook\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/jetstack/cert-manager-webhook:v1.19.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "default-kubernetes-replicator",
+      "name": "kubernetes-replicator",
+      "category": "k8s:default",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "P0",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: default\n\nDeployment: kubernetes-replicator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/mittwald/kubernetes-replicator:v2.12.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "extract-v3-api",
+      "name": "api (extract-v3)",
+      "category": "k8s:extract-v3",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "extract-v3\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: extract-v3\n\nDeployment: api\n\nDesired replicas: 17\n\nReady replicas: 17\n\nAvailable replicas: 17\n\nImages: ghcr.io/firecrawl/extract-v3-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "extract-v3-browser-worker",
+      "name": "browser-worker",
+      "category": "k8s:extract-v3",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "extract-v3\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: extract-v3\n\nDeployment: browser-worker\n\nDesired replicas: 5\n\nReady replicas: 5\n\nAvailable replicas: 5\n\nImages: ghcr.io/firecrawl/extract-v3-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "extract-v3-observability",
+      "name": "observability",
+      "category": "k8s:extract-v3",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "extract-v3\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: extract-v3\n\nDeployment: observability\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: ghcr.io/firecrawl/extract-v3-observability:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "extract-v3-orchestrator-worker",
+      "name": "orchestrator-worker",
+      "category": "k8s:extract-v3",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "extract-v3\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: extract-v3\n\nDeployment: orchestrator-worker\n\nDesired replicas: 24\n\nReady replicas: 24\n\nAvailable replicas: 24\n\nImages: ghcr.io/firecrawl/extract-v3-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "extract-v3-subagent-worker",
+      "name": "subagent-worker",
+      "category": "k8s:extract-v3",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "extract-v3\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: extract-v3\n\nDeployment: subagent-worker\n\nDesired replicas: 5\n\nReady replicas: 5\n\nAvailable replicas: 5\n\nImages: ghcr.io/firecrawl/extract-v3-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-api",
+      "name": "api",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: api\n\nDesired replicas: 22\n\nReady replicas: 22\n\nAvailable replicas: 22\n\nImages: ghcr.io/firecrawl/fire-engine-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-bpe",
+      "name": "bpe",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: bpe\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: igrek8/bullmq-prometheus:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-cdp-proxy",
+      "name": "cdp-proxy",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: cdp-proxy\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/fire-engine-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-dragonfly",
+      "name": "dragonfly",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: dragonfly\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: valkey/valkey:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-mac-solver-lb",
+      "name": "mac-solver-lb",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: mac-solver-lb\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: haproxy:3.3-alpine",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-proxy-encryption",
+      "name": "proxy-encryption",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: proxy-encryption\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/fire-engine-proxy-encryption:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-proxy-forwarder",
+      "name": "proxy-forwarder",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: proxy-forwarder\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/fire-engine-proxy-forwarder:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-sessionid-dragonfly",
+      "name": "sessionid-dragonfly",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: sessionid-dragonfly\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: valkey/valkey:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-worker-browser",
+      "name": "worker-browser",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Needs Review",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: worker-browser\n\nDesired replicas: 301\n\nReady replicas: 299\n\nAvailable replicas: 299\n\nImages: ghcr.io/firecrawl/fire-engine-worker:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-worker-cdp-remote",
+      "name": "worker-cdp-remote",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: worker-cdp-remote\n\nDesired replicas: 57\n\nReady replicas: 57\n\nAvailable replicas: 57\n\nImages: ghcr.io/firecrawl/fire-engine-worker:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-engine-worker-tlsclient",
+      "name": "worker-tlsclient",
+      "category": "k8s:fire-engine",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-engine\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-engine\n\nDeployment: worker-tlsclient\n\nDesired replicas: 50\n\nReady replicas: 50\n\nAvailable replicas: 50\n\nImages: ghcr.io/firecrawl/fire-engine-worker:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-proxy-api",
+      "name": "api (fire-proxy)",
+      "category": "k8s:fire-proxy",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-proxy\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-proxy\n\nDeployment: api\n\nDesired replicas: 10\n\nReady replicas: 10\n\nAvailable replicas: 10\n\nImages: ghcr.io/firecrawl/fire-proxy:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-proxy-dashboard",
+      "name": "dashboard",
+      "category": "k8s:fire-proxy",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-proxy\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-proxy\n\nDeployment: dashboard\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/fire-proxy-dashboard:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "fire-proxy-monitor",
+      "name": "monitor",
+      "category": "k8s:fire-proxy",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "fire-proxy\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: fire-proxy\n\nDeployment: monitor\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/fire-proxy:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecluster-firecluster",
+      "name": "firecluster",
+      "category": "k8s:firecluster",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecluster\n\nDeployment: firecluster\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecluster:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecluster-redis",
+      "name": "redis",
+      "category": "k8s:firecluster",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecluster\n\nDeployment: redis\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: valkey/valkey:8-alpine",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-chat-app",
+      "name": "app (firecrawl-chat)",
+      "category": "k8s:firecrawl-chat",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl-chat\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-chat\n\nDeployment: app\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl-chat:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-chat-mongodb",
+      "name": "mongodb",
+      "category": "k8s:firecrawl-chat",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl-chat\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-chat\n\nDeployment: mongodb\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: mongo:8.0.17",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-exporter-api",
+      "name": "api (firecrawl-exporter)",
+      "category": "k8s:firecrawl-exporter",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl-exporter\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-exporter\n\nDeployment: api\n\nDesired replicas: 3\n\nReady replicas: 3\n\nAvailable replicas: 3\n\nImages: ghcr.io/firecrawl/firecrawl-exporter:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-exporter-redis",
+      "name": "redis",
+      "category": "k8s:firecrawl-exporter",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl-exporter\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-exporter\n\nDeployment: redis\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl-redis:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-exporter-worker",
+      "name": "worker",
+      "category": "k8s:firecrawl-exporter",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl-exporter\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-exporter\n\nDeployment: worker\n\nDesired replicas: 5\n\nReady replicas: 5\n\nAvailable replicas: 5\n\nImages: ghcr.io/firecrawl/firecrawl-exporter:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-integrations-firecrawl-integrations",
+      "name": "firecrawl-integrations",
+      "category": "k8s:firecrawl-integrations",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl-integrations\n\nDeployment: firecrawl-integrations\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl-integrations:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-app",
+      "name": "app (firecrawl)",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: app\n\nDesired replicas: 177\n\nReady replicas: 177\n\nAvailable replicas: 177\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-bpe",
+      "name": "bpe",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: bpe\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: igrek8/bullmq-prometheus:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-extract-worker",
+      "name": "extract-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: extract-worker\n\nDesired replicas: 50\n\nReady replicas: 50\n\nAvailable replicas: 50\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-go-html-to-md",
+      "name": "go-html-to-md",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: go-html-to-md\n\nDesired replicas: 10\n\nReady replicas: 10\n\nAvailable replicas: 10\n\nImages: ghcr.io/firecrawl/go-html-to-md-service:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-index-worker",
+      "name": "index-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: index-worker\n\nDesired replicas: 50\n\nReady replicas: 50\n\nAvailable replicas: 50\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-nuq-postgres",
+      "name": "nuq-postgres",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: nuq-postgres\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/nuq-postgres:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-nuq-prefetch-worker",
+      "name": "nuq-prefetch-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: nuq-prefetch-worker\n\nDesired replicas: 3\n\nReady replicas: 3\n\nAvailable replicas: 3\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-nuq-reconciler-worker",
+      "name": "nuq-reconciler-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: nuq-reconciler-worker\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-nuq-worker",
+      "name": "nuq-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: nuq-worker\n\nDesired replicas: 409\n\nReady replicas: 409\n\nAvailable replicas: 409\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-pgbouncer",
+      "name": "pgbouncer",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: pgbouncer\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: edoburu/pgbouncer:v1.24.1-p1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-redis",
+      "name": "redis",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: redis\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/dragonflydb/dragonfly:v1.36.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-redis-evict",
+      "name": "redis-evict",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: redis-evict\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/dragonflydb/dragonfly:v1.36.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-scrape-cache-redis",
+      "name": "scrape-cache-redis",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: scrape-cache-redis\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl-redis:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "firecrawl-scrape-worker",
+      "name": "scrape-worker",
+      "category": "k8s:firecrawl",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "firecrawl\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: firecrawl\n\nDeployment: scrape-worker\n\nDesired replicas: 50\n\nReady replicas: 50\n\nAvailable replicas: 50\n\nImages: ghcr.io/firecrawl/firecrawl:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "gmp-system-gmp-operator",
+      "name": "gmp-operator",
+      "category": "k8s:gmp-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: gmp-system\n\nDeployment: gmp-operator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/prometheus-engine/operator:v0.15.5-gke.2@sha256:e4fe8610c92bc510f7613f3f5176bf22937fc53d91a9c5ac7a9a33b4b2807a7e",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "gmp-system-rule-evaluator",
+      "name": "rule-evaluator",
+      "category": "k8s:gmp-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: gmp-system\n\nDeployment: rule-evaluator\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/prometheus-engine/rule-evaluator:v0.15.5-gke.2@sha256:cc8c13175af1ef6890789910e07e9bd716cc4b2d5b56be8f766bcfd85ac71b6a, us-east4-artifactregistry.gcr.io/gke-release/gke-release/prometheus-engine/config-reloader:v0.15.5-gke.2@sha256:3757e15ba06a40b275302fc14e6a34929c0e1febe8e9850ed96cfeddfbfef76d",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "idmux-idmux",
+      "name": "idmux",
+      "category": "k8s:idmux",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: idmux\n\nDeployment: idmux\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: ghcr.io/firecrawl/idmux:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "indexer-api",
+      "name": "api (indexer)",
+      "category": "k8s:indexer",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "indexer\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: indexer\n\nDeployment: api\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: ghcr.io/firecrawl/indexer:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "indexer-links-worker",
+      "name": "links-worker",
+      "category": "k8s:indexer",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "indexer\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: indexer\n\nDeployment: links-worker\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: ghcr.io/firecrawl/indexer:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "indexer-redis",
+      "name": "redis",
+      "category": "k8s:indexer",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: indexer\n\nDeployment: redis\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: valkey/valkey:8-alpine",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "indexer-sitemap-worker",
+      "name": "sitemap-worker",
+      "category": "k8s:indexer",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "indexer\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: indexer\n\nDeployment: sitemap-worker\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: ghcr.io/firecrawl/indexer:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-antrea-controller",
+      "name": "antrea-controller",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: antrea-controller\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/antrea:v1.4.0-gke.38@sha256:19d567d11297a5cc221df5557d4d98544d4fbef5b13c8eef01c5f732e9d694aa, us-east4-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20241015_2300_RC0@sha256:1c838e782e8825f4c635ffa212833558976f16af700fbf4fcd9cf6103350d016",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-antrea-controller-horizontal-autoscaler",
+      "name": "antrea-controller-horizontal-autoscaler",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: antrea-controller-horizontal-autoscaler\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/cluster-proportional-autoscaler:v1.9.0-gke.31@sha256:5e3a00caa67063e6fdd6933986a62e5af176368be4090b50b16d4c7b49f8c66f",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-coredns",
+      "name": "coredns",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: coredns\n\nDesired replicas: 6\n\nReady replicas: 6\n\nAvailable replicas: 6\n\nImages: coredns/coredns:1.13.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-coredns-autoscaler",
+      "name": "coredns-autoscaler",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: coredns-autoscaler\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: registry.k8s.io/cpa/cluster-proportional-autoscaler:v1.9.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-event-exporter-gke",
+      "name": "event-exporter-gke",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: event-exporter-gke\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/event-exporter:event-exporter-v0.5.2-gke.6@sha256:76250369e72038ac25c521a7f5f980326f81245f8b7c2caac2c243429b44a81c, us-east4-artifactregistry.gcr.io/gke-release/gke-release/prometheus-to-sd:v0.12.4-gke.2@sha256:6509e293c860eec63f6ad317743653993ba40777f98ce451abe4066189aadbb1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-helm-controller",
+      "name": "helm-controller",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: helm-controller\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: rancher/helm-controller:v0.16.14",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-keel",
+      "name": "keel",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: keel\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: keelhq/keel:0.20.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-konnectivity-agent",
+      "name": "konnectivity-agent",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: konnectivity-agent\n\nDesired replicas: 8\n\nReady replicas: 8\n\nAvailable replicas: 8\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/proxy-agent:v0.31.3-gke.3@sha256:e04f5590355cdb286b4521605eb2cc46c2ea8ca089d54ceb501e2a026b2c121e, us-east4-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20250508_2300_RC0@sha256:d074c77bdc0ee1c4245113e62d93ef1ed6f1a51960ea854a972861a6a0c774ce",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-konnectivity-agent-autoscaler",
+      "name": "konnectivity-agent-autoscaler",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: konnectivity-agent-autoscaler\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/cluster-proportional-autoscaler:v1.10.2-gke.30@sha256:8b24258135682970a24fda8e21f3b9e7851ec8577c061a30347858a922378822",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-kube-dns",
+      "name": "kube-dns",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: kube-dns\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-kube-dns:1.26.4-gke.13@sha256:dd0d520b9ba0e0c28f9d0c5fbeb9a20ece646ae32dc11bc778eeb289f2382a69, us-east4-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-dnsmasq-nanny:1.26.4-gke.13@sha256:bce815e9136e56e83312ff65dc7f0002493513040b70513b95cda641bd2adcaf, us-east4-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-sidecar:1.26.4-gke.13@sha256:a08da8c6c095a4b672f70efc01435799e661b3146c1519aedf8a165c712e6e39, us-east4-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector:20260126_2300_RC0@sha256:bb6ef0cd51c2ac4d648ea576e1713069b5484dd35d058fa4cd822f1bab78f135",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-kube-dns-autoscaler",
+      "name": "kube-dns-autoscaler",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Unknown",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: kube-dns-autoscaler\n\nDesired replicas: 0\n\nReady replicas: 0\n\nAvailable replicas: 0\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/cluster-proportional-autoscaler:v1.10.2-gke.29@sha256:2e9c6bd2b699e19a7a78733772a1b7d9fbf244bf75b97b3299995d8beaee1fe7",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-l7-default-backend",
+      "name": "l7-default-backend",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: l7-default-backend\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/ingress-gce-404-server-with-metrics:v1.36.4@sha256:17597eb2b6a08c2ef5b993333bcc0d313784207d310555a730ccb5d0d68e065c",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "kube-system-metrics-server-v1-33-0",
+      "name": "metrics-server-v1.33.0",
+      "category": "k8s:kube-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: kube-system\n\nDeployment: metrics-server-v1.33.0\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: us-east4-artifactregistry.gcr.io/gke-release/gke-release/metrics-server:v0.7.1-gke.45@sha256:6d492cdefe6ca4b4582f37318b70fb2098cb35058f04128fb9f5a4cf9bd73243",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "mcp-server-scalable",
+      "name": "scalable",
+      "category": "k8s:mcp-server",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "mcp-server\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: mcp-server\n\nDeployment: scalable\n\nDesired replicas: 3\n\nReady replicas: 3\n\nAvailable replicas: 3\n\nImages: ghcr.io/firecrawl/firecrawl-mcp-server:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "mcp-server-sse",
+      "name": "sse",
+      "category": "k8s:mcp-server",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "mcp-server\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: mcp-server\n\nDeployment: sse\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/firecrawl-mcp-server:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-otel-collector",
+      "name": "otel-collector",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "opentelemetry-collector\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: otel-collector\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: otel/opentelemetry-collector-contrib:0.145.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-prometheus-adapter",
+      "name": "prometheus-adapter",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: prometheus-adapter\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-victoria-metrics-grafana",
+      "name": "victoria-metrics-grafana",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "P1",
+      "description": "grafana\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: victoria-metrics-grafana\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/kiwigrid/k8s-sidecar:1.30.3, docker.io/grafana/grafana:12.0.2",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-victoria-metrics-kube-state-metrics",
+      "name": "victoria-metrics-kube-state-metrics",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "kube-state-metrics\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: victoria-metrics-kube-state-metrics\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.15.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-victoria-metrics-victoria-metrics-operator",
+      "name": "victoria-metrics-victoria-metrics-operator",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "victoria-metrics-operator\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: victoria-metrics-victoria-metrics-operator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: victoriametrics/operator:v0.63.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-vmagent-victoria-metrics-vm",
+      "name": "vmagent-victoria-metrics-vm",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "vmagent\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: vmagent-victoria-metrics-vm\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: quay.io/prometheus-operator/prometheus-config-reloader:v0.82.1, victoriametrics/vmagent:v1.126.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-vmalert-victoria-metrics-vm",
+      "name": "vmalert-victoria-metrics-vm",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "vmalert\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: vmalert-victoria-metrics-vm\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: victoriametrics/vmalert:v1.126.0, jimmidyson/configmap-reload:v0.3.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "monitoring-vminsert-victoria-metrics-vm",
+      "name": "vminsert-victoria-metrics-vm",
+      "category": "k8s:monitoring",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "vminsert\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: monitoring\n\nDeployment: vminsert-victoria-metrics-vm\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: victoriametrics/vminsert:v1.126.0-cluster",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "n8n-alloydb-tcp-proxy",
+      "name": "alloydb-tcp-proxy",
+      "category": "k8s:n8n",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "n8n\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: n8n\n\nDeployment: alloydb-tcp-proxy\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: gcr.io/alloydb-connectors/alloydb-auth-proxy:1.13.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": "follow-up - do they use alloy db?"
+      }
+    },
+    {
+      "id": "n8n-n8n",
+      "name": "n8n",
+      "category": "k8s:n8n",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: n8n\n\nDeployment: n8n\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: n8nio/n8n:stable",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "n8n-n8n-valkey",
+      "name": "n8n-valkey",
+      "category": "k8s:n8n",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "n8n\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: n8n\n\nDeployment: n8n-valkey\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: valkey/valkey:9.0",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "n8n-n8n-worker",
+      "name": "n8n-worker",
+      "category": "k8s:n8n",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "n8n\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: n8n\n\nDeployment: n8n-worker\n\nDesired replicas: 2\n\nReady replicas: 2\n\nAvailable replicas: 2\n\nImages: docker.io/n8nio/n8n:stable",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "olmocr-api-api",
+      "name": "api (olmocr-api)",
+      "category": "k8s:olmocr-api",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "olmocr-api\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: olmocr-api\n\nDeployment: api\n\nDesired replicas: 4\n\nReady replicas: 4\n\nAvailable replicas: 4\n\nImages: ghcr.io/firecrawl/olmocr-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "olmocr-api",
+      "name": "api (olmocr)",
+      "category": "k8s:olmocr",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "olmocr\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: olmocr\n\nDeployment: api\n\nDesired replicas: 20\n\nReady replicas: 20\n\nAvailable replicas: 20\n\nImages: ghcr.io/firecrawl/olmocr-api:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "omce-exporter",
+      "name": "exporter (omce)",
+      "category": "k8s:omce",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "omce\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: omce\n\nDeployment: exporter\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/omce-prometheus-exporter:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "omce-worker",
+      "name": "worker (omce)",
+      "category": "k8s:omce",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "omce\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: omce\n\nDeployment: worker\n\nDesired replicas: 40\n\nReady replicas: 40\n\nAvailable replicas: 40\n\nImages: ghcr.io/firecrawl/omce:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "onepassword-onepassword-connect",
+      "name": "onepassword-connect",
+      "category": "k8s:onepassword",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "connect\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: onepassword\n\nDeployment: onepassword-connect\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: 1password/connect-api:1.8.1, 1password/connect-sync:1.8.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "onepassword-onepassword-connect-operator",
+      "name": "onepassword-connect-operator",
+      "category": "k8s:onepassword",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "connect\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: onepassword\n\nDeployment: onepassword-connect-operator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: 1password/onepassword-operator:1.9.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "parallel-agent-parallel-agent",
+      "name": "parallel-agent",
+      "category": "k8s:parallel-agent",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: parallel-agent\n\nDeployment: parallel-agent\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/parallel-agent:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "rabbitmq-system-rabbitmq-cluster-operator",
+      "name": "rabbitmq-cluster-operator",
+      "category": "k8s:rabbitmq-system",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: rabbitmq-system\n\nDeployment: rabbitmq-cluster-operator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: rabbitmqoperator/cluster-operator:2.16.1",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": "follow-up what is this?"
+      }
+    },
+    {
+      "id": "smart-scrape-api",
+      "name": "api",
+      "category": "k8s:smart-scrape",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "smart-scrape\n\nLive deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: smart-scrape\n\nDeployment: api\n\nDesired replicas: 5\n\nReady replicas: 5\n\nAvailable replicas: 5\n\nImages: ghcr.io/firecrawl/smart-scrape:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "tailscale-operator",
+      "name": "operator",
+      "category": "k8s:tailscale",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: tailscale\n\nDeployment: operator\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: tailscale/k8s-operator:v1.90.9",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "tom-cluster-test-tom-cluster-test",
+      "name": "tom-cluster-test",
+      "category": "k8s:tom-cluster-test",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: tom-cluster-test\n\nDeployment: tom-cluster-test\n\nDesired replicas: 1\n\nReady replicas: 1\n\nAvailable replicas: 1\n\nImages: ghcr.io/firecrawl/tom-cluster-test:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    },
+    {
+      "id": "webhook-dispatcher-webhook-dispatcher",
+      "name": "webhook-dispatcher",
+      "category": "k8s:webhook-dispatcher",
+      "owner": "Unknown",
+      "hidden": false,
+      "status": "Healthy",
+      "importance": "Unknown",
+      "description": "Live deployment from kubectl get deployments -A on 2026-03-11.\n\nNamespace: webhook-dispatcher\n\nDeployment: webhook-dispatcher\n\nDesired replicas: 5\n\nReady replicas: 5\n\nAvailable replicas: 5\n\nImages: ghcr.io/firecrawl/webhook-dispatcher:latest",
+      "runbook": "",
+      "notes": "",
+      "fields": {
+        "github_repo": "Unknown",
+        "api_access": "None",
+        "dev_access": "None",
+        "tags": ""
+      }
+    }
+  ],
+  "customCategories": [
+    "Third Party Hosting Providers",
+    "Third Party APIs",
+    "Third Party SaaS",
+    "k8s:agentweb",
+    "k8s:cert-manager",
+    "k8s:default",
+    "k8s:extract-v3",
+    "k8s:fire-engine",
+    "k8s:fire-proxy",
+    "k8s:firecluster",
+    "k8s:firecrawl-chat",
+    "k8s:firecrawl-exporter",
+    "k8s:firecrawl-integrations",
+    "k8s:firecrawl",
+    "k8s:gmp-system",
+    "k8s:idmux",
+    "k8s:indexer",
+    "k8s:kube-system",
+    "k8s:mcp-server",
+    "k8s:monitoring",
+    "k8s:n8n",
+    "k8s:olmocr-api",
+    "k8s:olmocr",
+    "k8s:omce",
+    "k8s:onepassword",
+    "k8s:parallel-agent",
+    "k8s:rabbitmq-system",
+    "k8s:smart-scrape",
+    "k8s:tailscale",
+    "k8s:tom-cluster-test",
+    "k8s:webhook-dispatcher"
+  ],
+  "visibleColumnsByCategory": {
+    "All": [
+      "name",
+      "owner",
+      "category",
+      "github_repo",
+      "importance",
+      "api_access",
+      "dev_access",
+      "tags"
+    ],
+    "Third Party Hosting Providers": [
+      "name",
+      "category",
+      "owner",
+      "importance",
+      "api_access",
+      "dev_access",
+      "tags"
+    ],
+    "Repos": [
+      "name",
+      "category",
+      "owner",
+      "importance",
+      "api_access",
+      "dev_access",
+      "tags"
+    ],
+    "k8s:indexer": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:onepassword": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:cert-manager": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:monitoring": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:firecrawl": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:default": [
+      "name",
+      "category",
+      "owner",
+      "importance",
+      "tags"
+    ],
+    "k8s:kube-system": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:extract-v3": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:agentweb": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:olmocr": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:n8n": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:gmp-system": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:smart-scrape": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:mcp-server": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:omce": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:firecrawl-chat": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:fire-proxy": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:rabbitmq-system": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:olmocr-api": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:firecrawl-exporter": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:tom-cluster-test": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:idmux": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:tailscale": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:webhook-dispatcher": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:firecrawl-integrations": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:firecluster": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:fire-engine": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "k8s:parallel-agent": [
+      "name",
+      "category",
+      "owner",
+      "github_repo",
+      "importance",
+      "tags"
+    ],
+    "Third Party SaaS": [
+      "name",
+      "category",
+      "owner",
+      "importance",
+      "api_access",
+      "dev_access",
+      "tags"
+    ]
+  },
+  "columnWidths": {
+    "name": 260,
+    "category": 189,
+    "owner": 153,
+    "github_repo": 220,
+    "importance": 110,
+    "api_access": 220,
+    "dev_access": 220,
+    "tags": 220
+  }
+}
